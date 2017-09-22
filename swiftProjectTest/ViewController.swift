@@ -12,11 +12,11 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
 
     var ctrNames:[String]?
     var tableView : UITableView?
-    
+    var label: UILabel?
     override func viewDidLoad() {
         super.viewDidLoad()
         self.ctrNames = ["1","2","3","4","5","6","7","8","9","0"]
-        self.tableView = UITableView.init(frame: self.view.frame, style: UITableViewStyle.grouped)
+        self.tableView = UITableView.init(frame: CGRect(x: 0, y: 64, width: self.view.frame.width, height: self.view.frame.height), style: UITableViewStyle.grouped)
         
         self.tableView?.delegate = self
         self.tableView?.dataSource = self

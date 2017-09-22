@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9555BD41F74B3FA0092B095 /* ZHCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9555BD31F74B3FA0092B095 /* ZHCustomCell.swift */; };
 		F95AB1981EF9198F009ECFC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95AB1971EF9198F009ECFC6 /* AppDelegate.swift */; };
 		F95AB19A1EF9198F009ECFC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95AB1991EF9198F009ECFC6 /* ViewController.swift */; };
 		F95AB19D1EF9198F009ECFC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F95AB19B1EF9198F009ECFC6 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F9555BD31F74B3FA0092B095 /* ZHCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHCustomCell.swift; sourceTree = "<group>"; };
 		F95AB1941EF9198F009ECFC6 /* swiftProjectTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftProjectTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95AB1971EF9198F009ECFC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F95AB1991EF9198F009ECFC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F9555BD21F74B3DB0092B095 /* customCell */ = {
+			isa = PBXGroup;
+			children = (
+				F9555BD31F74B3FA0092B095 /* ZHCustomCell.swift */,
+			);
+			path = customCell;
+			sourceTree = "<group>";
+		};
 		F95AB18B1EF9198E009ECFC6 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +107,7 @@
 		F95AB1961EF9198F009ECFC6 /* swiftProjectTest */ = {
 			isa = PBXGroup;
 			children = (
+				F9555BD21F74B3DB0092B095 /* customCell */,
 				F95AB1971EF9198F009ECFC6 /* AppDelegate.swift */,
 				F95AB1991EF9198F009ECFC6 /* ViewController.swift */,
 				F95AB19B1EF9198F009ECFC6 /* Main.storyboard */,
@@ -262,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9555BD41F74B3FA0092B095 /* ZHCustomCell.swift in Sources */,
 				F95AB19A1EF9198F009ECFC6 /* ViewController.swift in Sources */,
 				F95AB1981EF9198F009ECFC6 /* AppDelegate.swift in Sources */,
 			);
@@ -516,6 +528,7 @@
 				F95AB1BE1EF9198F009ECFC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F95AB1BF1EF9198F009ECFC6 /* Build configuration list for PBXNativeTarget "swiftProjectTestTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +537,7 @@
 				F95AB1C11EF9198F009ECFC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F95AB1C21EF9198F009ECFC6 /* Build configuration list for PBXNativeTarget "swiftProjectTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +546,7 @@
 				F95AB1C41EF9198F009ECFC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
