@@ -16,7 +16,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     override func viewDidLoad() {
         super.viewDidLoad()
         self.ctrNames = ["1","2","3","4","5","6","7","8","9","0"]
-        self.tableView = UITableView.init(frame: CGRect(x: 0, y: 64, width: self.view.frame.width, height: self.view.frame.height), style: UITableViewStyle.grouped)
+        self.tableView = UITableView.init(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height), style: UITableViewStyle.grouped)
         
         self.tableView?.delegate = self
         self.tableView?.dataSource = self
@@ -56,6 +56,12 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        if indexPath.section == 0 {
+            let customCellVC = ZHCustomTableViewController()
+            navigationController?.pushViewController(customCellVC, animated: true)
+            
+        }
         
     }
     

@@ -15,6 +15,7 @@
 		F95AB1A21EF9198F009ECFC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F95AB1A01EF9198F009ECFC6 /* LaunchScreen.storyboard */; };
 		F95AB1AD1EF9198F009ECFC6 /* swiftProjectTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95AB1AC1EF9198F009ECFC6 /* swiftProjectTestTests.swift */; };
 		F95AB1B81EF9198F009ECFC6 /* swiftProjectTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95AB1B71EF9198F009ECFC6 /* swiftProjectTestUITests.swift */; };
+		F95E834C1F7A2C140099F9B9 /* ZHCustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E834B1F7A2C140099F9B9 /* ZHCustomTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F95AB1B31EF9198F009ECFC6 /* swiftProjectTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftProjectTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95AB1B71EF9198F009ECFC6 /* swiftProjectTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftProjectTestUITests.swift; sourceTree = "<group>"; };
 		F95AB1B91EF9198F009ECFC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F95E834B1F7A2C140099F9B9 /* ZHCustomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHCustomTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				F9555BD31F74B3FA0092B095 /* ZHCustomCell.swift */,
+				F95E834B1F7A2C140099F9B9 /* ZHCustomTableViewController.swift */,
 			);
 			path = customCell;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F95E834C1F7A2C140099F9B9 /* ZHCustomTableViewController.swift in Sources */,
 				F9555BD41F74B3FA0092B095 /* ZHCustomCell.swift in Sources */,
 				F95AB19A1EF9198F009ECFC6 /* ViewController.swift in Sources */,
 				F95AB1981EF9198F009ECFC6 /* AppDelegate.swift in Sources */,

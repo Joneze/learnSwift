@@ -16,6 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // 创建窗口
+        window = UIWindow(frame: UIScreen.main.bounds)
+        let rootVc = ViewController()
+        let advertiseVC = UINavigationController(rootViewController:rootVc)
+        window?.rootViewController = advertiseVC
         return true
     }
 

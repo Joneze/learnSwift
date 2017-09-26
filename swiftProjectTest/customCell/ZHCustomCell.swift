@@ -25,9 +25,13 @@ class ZHCustomCell: UITableViewCell {
     func setUpUI()  {
         self.titleLabel = UILabel.init()
         self.titleLabel?.backgroundColor = UIColor.clear
-        self.titleLabel?.frame = CGRect(x:0, y:0, width:100, height:30)
+        self.titleLabel?.frame = CGRect(x:20, y:0, width:100, height:30)
         self.titleLabel?.text = "自定义cell"
-        self.titleLabel?.font = UIFont.systemFont(ofSize: 24)
+        self.titleLabel?.font = UIFont.systemFont(ofSize: 18)
+        self.titleLabel?.numberOfLines = 0
+        self.titleLabel?.textAlignment = NSTextAlignment.center
+        self.addSubview(self.titleLabel!)
+        
         
     }
     
